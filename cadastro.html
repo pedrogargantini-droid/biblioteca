@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Biblioteca do Xandão</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Catálogo de Livros</a> |
+        <a href="cadastro.html">Cadastro de Alunos</a>
+    </nav>
+
+    <hr>
+
+    <section>
+        <h2>Cadastro de Alunos</h2>
+
+        <form action="index.html" method="GET">
+            <label>Nome Completo:</label>
+            <input type="text">
+            <br><br>
+
+            <label>Turma:</label>
+            <input type="text">
+            <br><br>
+
+            <label>Número da Chamada:</label>
+            <input type="number">
+            <br><br>
+
+            <label>CPF:</label>
+            <input type="text" placeholder="Ex: 000.000.000-00">
+            <br><br>
+
+            <label>Gmail:</label>
+            <input type="email" placeholder="Ex: nome@gmail.com">
+            <br><br>
+
+            <label>Telefone do Responsável Legal:</label>
+            <input type="text" placeholder="Ex: (41) 99999-0000">
+            <br><br>
+
+            <button type="submit">Cadastrar Aluno</button>
+        </form>
+
+        <h3>Alunos Cadastrados</h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome Completo</th>
+                    <th>Turma</th>
+                    <th>Número</th>
+                    <th>CPF</th>
+                    <th>Gmail</th>
+                    <th>Responsável</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pedro Henrique Silva</td>
+                    <td>2º Técnico S</td>
+                    <td>24</td>
+                    <td>123.456.789-00</td>
+                    <td>pedro.silva@gmail.com</td>
+                    <td>(41) 99999-1111</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</body>
+
+</html>
